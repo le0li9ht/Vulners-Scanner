@@ -9,6 +9,10 @@ Clone the repository
 ```
 $ git clone https://github.com/le0li9ht/Vulners-Scanner
 ```
+Go to cloned directory  
+```
+$cd Vulners-Scanner
+```
 Add execution permissions for the script  
 ```
 $ chmod +x vulners-scanner.py
