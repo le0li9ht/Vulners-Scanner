@@ -83,7 +83,7 @@ class scannerEngine():
             if not vulnsFound:
                 print("")#print("No vulnerabilities found")
             else:
-                print("Package Name, Package Version,Arch,Vulnerability(Ubuntu Security Notice ID),Severity Rating")
+                print("Package Name, Package Version,Vulnerability(Ubuntu Security Notice ID),Severity Rating")
                 payload = {'id':vulnsFound}
                 allVulnsInfo = self.sendVulnRequest(VULNERS_LINKS['bulletin'], payload)
                 vulnInfoFound = allVulnsInfo['result'] == 'OK'
