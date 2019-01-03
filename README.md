@@ -21,7 +21,8 @@ Run the scan
 ``` 
 $ ./vulners-scanner.py >scan.csv
 ```
-For a redable vulners report use the https://github.com/jgamblin/nmaptable and provide the scan.csv file as input to it to get a
+For a readable vulners report provide the scan.csv file as input to the nmaptable which will generate the report in below format.
+![](https://raw.githubusercontent.com/le0li9ht/Vulners-Scanner/master/Vulners-Report.png)
 readable report as shown below
 
 
