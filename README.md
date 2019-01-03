@@ -1,7 +1,7 @@
 # Vulners-Scanner
 
 Vulnerability scanner based on vulners.com audit API https://vulners.com  
-This is a modified version of vulners-scanner which can generate output in csv format.  
+This is a modified version of vulners-scanner which can generate vulners scan output in csv format.  
 All credits goes to vulners.com  
 
 # How to use?  
@@ -21,4 +21,9 @@ Run the scan
 ``` 
 $ ./vulners-scanner.py >scan.csv
 ```
+For a redable vulners report use the https://github.com/jgamblin/nmaptable and provide the scan.csv file as input to it to get a
+readable report as shown below
+
+
+
 
