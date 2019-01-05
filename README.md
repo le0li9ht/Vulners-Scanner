@@ -1,8 +1,7 @@
 # Vulners-Scanner
 
 Vulnerability scanner based on vulners.com audit API https://vulners.com  
-This is a modified version of vulners-scanner which can generate vulners scan output in csv format.  
-All credits goes to vulners.com  
+This is a modified version of [vulners-scanner](https://github.com/vulnersCom/burp-vulners-scanner) which can generate vulners scan output in csv format.  
 
 # How to use?  
 Clone the repository  
