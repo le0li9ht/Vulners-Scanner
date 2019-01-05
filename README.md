@@ -36,7 +36,7 @@ $ http-server
 ```
 Use the wkhtmltopdf for converting the html to nice tabular form of output.
 ```
-wkhtmltopdf --viewport-size 1024x768 -O Landscape http://127.0.0.1:8080/nmaptable/nmap.html vulners-report.pdf
+$ wkhtmltopdf --viewport-size 1024x768 -O Landscape http://127.0.0.1:8080/nmaptable/nmap.html vulners-report.pdf
   
 ```
 Example report generated through above steps  
